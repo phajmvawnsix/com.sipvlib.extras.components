@@ -1,0 +1,21 @@
+{
+    "name": "SiPV.Extras.Components",
+    "rootNamespace": "",
+    "references": [
+        "GUID:aedc6fc8466b48f4bc040709192c0811",
+        "GUID:db98c1a29dfe47048ade0bc7d7be3c6c",
+        "GUID:c34f2bcb83a9fe2448e35f8af0287c04",
+        "GUID:4c5265e356e64886850c1bc4a83b434b",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

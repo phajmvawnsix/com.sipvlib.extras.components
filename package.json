@@ -1,0 +1,23 @@
+{
+  "name": "com.sipvlib.extras.components",
+  "version": "1.0.0",
+  "displayName": "SiPVLib Extras Components",
+  "description": "Drop-in MonoBehaviour components used across SiPVLib games: ButtonHandler (tap + repeating hold with SFX and haptics), TMPEffect (SDF outline/shadow plus vertex-colour gradient for TextMeshPro, no extra draw calls), EmptyGraphic (raycast target with zero draw cost), SafeArea (notch-aware RectTransform driver), BackgroundCapture (flattens the render behind it into a RenderTexture to cut UI overdraw), plus SortingLayerSetter, AspectRatioFitterPlus and ScreenOrientationLock.",
+  "unity": "6000.3",
+  "author": {
+    "name": "phajmvawnsix"
+  },
+  "license": "Apache-2.0",
+  "keywords": [
+    "sipvlib",
+    "components",
+    "ui",
+    "performance"
+  ],
+  "dependencies": {
+    "com.unity.ugui": "2.0.0",
+    "com.sipvlib.debugging": "https://github.com/phajmvawnsix/com.sipvlib.debugging.git",
+    "com.sipvlib.sound": "https://github.com/phajmvawnsix/com.sipvlib.sound.git",
+    "com.sipvlib.vibrate": "https://github.com/phajmvawnsix/com.sipvlib.vibrate.git"
+  }
+}
