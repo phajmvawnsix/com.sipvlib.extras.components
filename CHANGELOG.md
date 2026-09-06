@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.1] - 2026-09-03
+
+Lower minimum Unity Editor version to 2022.3 LTS (was 6000.3) and add a `repository`
+field to `package.json`, both required for OpenUPM registry submission.
+
+Pin `com.unity.ugui` to 1.0.0 (was 2.0.0): uGUI 2.0.0 ships only with Unity 6.x — Unity 2022.3 ships
+uGUI 1.0.0, and Package Manager can't install a built-in package version the Editor doesn't provide.
+
 ## [1.0.0] - 2026-09-01
 
 Initial release.
