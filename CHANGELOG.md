@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.2] - 2026-09-03
+
+Pin com.sipvlib.debugging/sound/vibrate to semver versions instead of git URLs, so this package installs cleanly via the OpenUPM registry.
+
 ## [1.0.1] - 2026-09-03
 
 Lower minimum Unity Editor version to 2022.3 LTS (was 6000.3) and add a `repository`
