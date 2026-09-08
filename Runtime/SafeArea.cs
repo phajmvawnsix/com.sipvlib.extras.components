@@ -1,7 +1,5 @@
+using Alchemy.Inspector;
 using SiPVLib.Debugging;
-#if ODIN_INSPECTOR
-using Sirenix.OdinInspector;
-#endif
 using UnityEngine;
 
 namespace SiPVLib.Extras.Components
@@ -67,9 +65,7 @@ namespace SiPVLib.Extras.Components
         /// <summary>
         /// Gets the safe area rect (in pixels) that was last applied to the target.
         /// </summary>
-#if ODIN_INSPECTOR
-        [ShowInInspector, ReadOnly, FoldoutGroup("Debug", Expanded = false)]
-#endif
+        [ShowInInspector, ReadOnly, FoldoutGroup("Debug")]
         public Rect AppliedSafeArea => _lastSafeArea;
 
         /// <summary>
